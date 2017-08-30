@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Pure VPN</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+        <link href="materialize/css/materialize.min.css" rel="stylesheet" />
+        <link href="style/css/main.css" rel="stylesheet" />
+
+    </head>
+
+    <body>
+
+        <div class="row">
+            <!-- sidebar -->
+            <div class="sidebar col s3">
+                <ul id="tabs-swipe" class="tabs controllers">
+                    <li class="tab col s3"><a href="#content-menu">Content</a></li>
+                    <li class="tab col s3"><a class="active" href="#body-menu">Body</a></li>
+
+                    <li class="tab col s3"><a href="#structure-menu">Structure</a></li>
+                </ul>
+                <!--~~~~~~~~~~~~~~ content~~~~~~~~~~~~~~~~~~ -->
+                <div id="content-menu" class="col s12 ">content</div>
+                  <!--~~~~~~~~~~~~~~ content~~~~~~~~~~~~~~~~~~ -->
+                    <!-- ~~~~~~~~~~~~~~~ body-menu~~~~~~~~~~~~~~~~~~  -->
+                <div id="body-menu" class="col s12 ">
+                    <h4>Genral Option</h4>
+
+                    <div class="options">
+                        <!-- content-area -->
+                        <div class="content-area">
+                            <div>Content area width</div>
+
+                            <div>
+                                <button type="button" class="btn btn-default">-</button>
+                                <button type="button" class="btn btn-default " disabled="true">815</button>
+                                <button type="button" class="btn btn-default ">+</button>
+                            </div>
+                        </div>
+                        <!-- content-area -->
+
+                        <!--backgroud-color -->
+                        <div class="background-color">
+                            <div>Background color</div>
+                            <div>
+                                <span class="wrapper-color-selector">
+                                                                    <span>
+                                                                      <div  style="background-color: rgb(0, 104, 165);"></div>
+                                                                    </span>
+                                <span>
+                                                                        <input type="text"  class="" >
+                                                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!--backgroud-color -->
+
+
+                        <!--backgroud-color -->
+                        <div class="content-area">
+                            <div>Content area background color</div>
+                            <div>
+                                <span class="wrapper-color-selector">
+                                                                    <span>
+                                                                      <div ></div>
+                                                                    </span>
+                                <span>
+                                                                        <input type="text" ng-model="color" analytics-category="common" ng-focus="rememberColor()" ng-blur="updateColor()" analytics-on="click" analytics-event="open-color-selector" class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                                                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!--backgroud-color -->
+
+                        <div class="canvas-background-color"></div>
+                        <div class="default-fonts"></div>
+                        <div class="link-color"></div>
+                    </div>
+                </div>
+                    <!-- ~~~~~~~~~~~~~~~ body-menu~~~~~~~~~~~~~~~~~~  -->
+                 <!-- structure-menu-->
+                <div id="structure-menu" class="col s12">
+                    
+                </div>
+                 <!-- structure-menu-->
+
+            </div>
+
+            <!-- canvas -->
+            <div class="canvas col s9">
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
+
+        <script src="materialize/js/materialize.min.js"></script>
+        <script src="js/homepage.js"></script>
+        <script src="typescript/material-component.js"></script>
+
+        <script>
+            $(function () {
+
+            });
+        </script>
+    </body>
+
+</htmL>

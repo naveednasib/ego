@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACH,gBAAgB,EAAE,6BAA6B;EAC/C,MAAM,EAAE,KAAK;EAAK,UAAU,EAAE,IAAI;;ACDlC,qBAAY;EAAC,OAAO,EAAE,CAAC",
+"sources": ["../scss/partials/_canvas.scss","../scss/partials/_sidebar.scss"],
+"names": [],
+"file": "main.css"
+}

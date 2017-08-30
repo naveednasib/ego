@@ -1,0 +1,9 @@
+.canvas {
+  background-image: url(/images/art-board-bg.png);
+  height: 100vh;
+  min-height: 100%; }
+
+.sidebar .tabs .tab a {
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
